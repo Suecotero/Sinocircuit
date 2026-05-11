@@ -6,7 +6,7 @@ window.SC_COPY = {
       eyebrow: "Shenzhen \u00b7 Pearl River Delta",
       titleA: "The China desk",
       titleB: "for serious buyers.",
-      lede: "Sinocircuit is a private intelligence, sourcing and negotiation practice for international companies doing significant business with China. We sit on the ground in the Pearl River Delta so you don\u2019t have to guess.",
+      lede: "Sinocircuit is a private travel, sourcing and negotiation practice for international companies doing significant business with China. We sit on the ground in the Pearl River Delta so you don\u2019t have to guess.",
       ctaPrimary: "Book a 30\u2011minute intro",
       ctaSecondary: "See a worked case",
       stat1L: "Vetted factories",

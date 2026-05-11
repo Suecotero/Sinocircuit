@@ -37,6 +37,9 @@ function Hero({ t, onBook }) {
           </div>
         </div>
         <aside className="sc-hero__right" aria-hidden="true">
+          <div className="sc-globe-frame" aria-hidden="true">
+            <iframe title="Desk globe animation" src="globe.html" frameBorder="0" scrolling="no"></iframe>
+          </div>
           <div className="sc-card sc-card--ledger">
             <div className="sc-ledger__head">
               <span>SC / DESK LEDGER</span>
@@ -57,7 +60,7 @@ function Hero({ t, onBook }) {
         </aside>
       </div>
       <figure className="sc-hero__sky" aria-hidden="true">
-        <img src="assets/shenzhen-dusk.jpg" alt="Shenzhen skyline at dusk" style={{ width: "600px" }} />
+        <img src="assets/shenzhen-dusk.jpg" alt="Shenzhen skyline at dusk" />
         <div className="sc-hero__sky-tick">
           <span>22.5431° N · 114.0579° E</span>
           <span>· Shenzhen / Futian</span>
@@ -408,18 +411,7 @@ function Booking({ t, openRef }) {
 
 function ManufacturingStrip({ t }) {
   const s = t && t.strip || {};
-  return (
-    <section className="sc-strip" aria-hidden="true" data-screen-label="04b Strip">
-      <img className="sc-strip__img" src="assets/shenzhen-night.jpg" alt="Shenzhen at night" style={{ padding: "1px" }} />
-      <div className="sc-strip__tick">
-        <span>{s.tickL || "Greater Bay Area"}</span>
-        <span>{s.tickR || "Manufacturing density · 1st in PRC"}</span>
-      </div>
-      <div className="sc-strip__cap">
-        <p className="sc-strip__cap-l">{s.title || "Closer to the floor than any consultant in London."}</p>
-        <span className="sc-strip__cap-r">{s.tag || "On the ground · daily"}</span>
-      </div>
-    </section>);
+ ;
 
 }
 
