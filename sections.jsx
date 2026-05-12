@@ -59,17 +59,20 @@ function Hero({ t, onBook }) {
           </div>
         </aside>
       </div>
-      <figure className="sc-hero__sky" aria-hidden="true">
-        <img src="assets/shenzhen-dusk.jpg" alt="Shenzhen skyline at dusk" />
-        <div className="sc-hero__sky-tick">
-          <span>22.5431° N · 114.0579° E</span>
-          <span>· Shenzhen / Futian</span>
-        </div>
-        <figcaption className="sc-hero__sky-cap">
-          <span><b>The desk</b> · Pearl River Delta</span>
-          <span>Live · GMT+8</span>
-        </figcaption>
-      </figure>
+      <div className="sc-hero__images" aria-hidden="true">
+        <a href="#services" className="sc-hero__image-link">
+          <img src="assets/shenzhen webpage 2.jpg" alt="Sourcing in Shenzhen" />
+          <div className="sc-hero__image-overlay">
+            <span>Sourcing</span>
+          </div>
+        </a>
+        <a href="#trip" className="sc-hero__image-link">
+          <img src="assets/yangshuo webpage 2.jpg" alt="Travel in Yangshuo" />
+          <div className="sc-hero__image-overlay">
+            <span>Travel</span>
+          </div>
+        </a>
+      </div>
       <div className="sc-stats">
         {[
         [t.hero.stat1V, t.hero.stat1L],
